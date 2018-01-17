@@ -25,5 +25,4 @@ angular.module('myApp').factory('CreditService', ['$http', '$q', function($http,
     );
     return deferred.promise;
   }
-
 }]);
